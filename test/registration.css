@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding:  0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+/* header for background Image of Mecca */
+
+.header{  
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(Pictures/banner.png);
+    background-position: center;
+    background-size: : cover;
+    position: relative;
+    
+}
+
+
+
+
+
+
+/* Full-width input fields */
+
+
+
+
+
+/* Registration */
+
+.description{
+    width: 90%;
+    color: #fff;
+}
+
+.description h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.description p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+/* The labels above the input fields that describe their input field*/
+
+label b{ 
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/*Initial Input Fields*/
+
+input[type=text], input[type=password] {  
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+/*When users use input fields*/
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* styling the current hr line */
+
+hr { 
+  border: 1px solid #f44336;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+/* Set a style for the submit/register button */
+
+.registerbtn {
+  background-color: #f44336;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+
+
+
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

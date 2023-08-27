@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding:  0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+/* header for background Image of Mecca */
+
+.header{  
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(Pictures/banner.png);
+    background-position: center;
+    background-size: : cover;
+    position: relative;
+    
+}
+
+
+
+
+
+
+/* Full-width input fields */
+
+
+
+
+
+/* Registration */
+
+.description{
+    width: 90%;
+    color: #fff;
+}
+
+.description h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.description p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+/* The labels above the input fields that describe their input field*/
+
+label b{ 
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/*Initial Input Fields*/
+
+output{  
+
+  
+    
+  width: 98%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-table;
+  border-radius: 5px ;
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling the current hr line */
+
+hr { 
+  border: 1px solid #f44336;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding:  0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+
+
+
+
+/* header for background Image of Mecca */
+
+.header{  
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(Pictures/banner.png);
+    background-position: center;
+    background-size: : cover;
+    position: relative;
+    
+}
+
+
+
+
+
+
+/* Full-width input fields */
+
+
+
+
+
+/* Registered CLients*/
+
+.description{
+    width: 100%;
+    color: #fff;
+}
+
+.description h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+/*table CSS*/
+
+.body h3{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.table th{
+    color: #fff;
+}
+
+.table td{
+    color: #fff;
+}
+
